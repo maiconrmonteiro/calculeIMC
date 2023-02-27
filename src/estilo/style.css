@@ -1,0 +1,156 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 50%;
+    height: auto;
+}
+
+h1 {
+    color: #1F5EAF;
+    font-size: bold;
+    margin-bottom: 15px;
+}
+
+h2 {
+    background-color: #FF5202;
+    color: white;
+    width: 220px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+p {
+    color: #707274;
+    margin-bottom: 15px;
+}
+
+.inputsBtn {
+    display: flex;
+}
+
+.altura, .peso {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.altura {
+    margin-right: 20px;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.txtInterpretacao {
+    background-color: #1F5EAF;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #1F5EAF;
+}
+
+.campos {
+    width: 150px;
+    margin-bottom: 10px;
+    border: 2px solid #1F5EAF;
+    padding: 10px;
+    border-radius: 10px;
+    outline: 0;
+}
+
+
+.btns {
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.btns.calcular {
+    background-color: #1F5EAF;
+    color: white;
+}
+
+.btns.calcular:hover {
+    background-color: #174179;
+    cursor: pointer;
+}
+
+.btns.limpar {
+    background-color: #FF5202;
+    color: white;
+}
+
+.btns.limpar:hover{
+    background-color: #c94000;
+    cursor: pointer;
+}
+
+span {
+    color: #707274;
+    text-transform: uppercase;
+    display: none;
+}
+
+#resultadoImpresso {
+    display: inline-block;
+    color: white;
+    margin-left: 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+a:hover{
+    color: #154380;
+    font-weight: 600;
+}
+
+.grau1 {
+    background-color: #EBFDEA;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+}
+
+.grau2 {
+    background-color: #EBFDEA;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+}
+
+.grau3 {
+    background-color: rgba(255, 0, 0, 0.582);
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+}
+
+.grau4 {
+    background-color: rgba(255, 0, 0, 0.658);
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+}
