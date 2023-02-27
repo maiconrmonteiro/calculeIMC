@@ -35,3 +35,5 @@ btnCalcular.addEventListener('click', () => {
 btnLimpar.addEventListener("click", ()=> {
     location.reload()
 })
+
+

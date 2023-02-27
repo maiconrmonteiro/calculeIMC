@@ -154,3 +154,17 @@ a:hover{
     color: black;
     padding: 5px;
 }
+
+
+@media screen and (max-width: 900px) {
+    main {
+        width: 100vw;
+        height: 100vh;
+        padding: 25px;
+    }
+
+    .inputsBtn{
+        align-items: center;
+        justify-content: center;
+    }
+}
